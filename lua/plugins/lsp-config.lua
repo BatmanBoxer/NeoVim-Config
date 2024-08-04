@@ -40,6 +40,8 @@ return {
       vim.keymap.set("n", "<C-z>", vim.lsp.buf.definition, {})
       vim.keymap.set("n", "<C-k>", vim.lsp.buf.references, {})
       vim.keymap.set("n", "<C-a>", vim.lsp.buf.code_action, {})
+      vim.keymap.set("n", "<C-r>", vim.lsp.buf.rename, {})
+      
     end,
   },
 }

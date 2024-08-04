@@ -7,9 +7,8 @@ vim.g.background = "light"
 vim.cmd("set clipboard=unnamed")
 vim.cmd("set mouse=a")
 vim.cmd("set autoindent")
-
 vim.opt.swapfile = false
-
+vim.opt.relativenumber = true
 -- Navigate vim panes better
 vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
 vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
